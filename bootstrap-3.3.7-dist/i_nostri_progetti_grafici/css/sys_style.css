@@ -1,0 +1,131 @@
+html {
+  overflow: auto !important;
+}
+html, body{
+  -webkit-overflow-scrolling : touch !important;
+/*  overflow: auto !important;*/
+  height: 100% !important;
+}
+
+/*.modal { position: absolute !important; }*/
+
+/* Tabelle */
+.table { font-size: 14px; }
+.table.small { font-size: 12px; }
+.table>thead>tr>th { padding: 8px; }
+.table>tbody>tr>td { padding: 8px; }
+.table.table-condensed>thead>tr>th { padding: 5px; }
+.table.table-condensed>tbody>tr>td { padding: 5px; }
+.table.table-bordered {border-color:#ddd;}
+.table.table-bordered thead tr th {border-color:#ddd;}
+.table.table-bordered tbody tr th {border-color:#ddd;}
+.table.table-bordered tbody tr td {border-color:#ddd;}
+table.table-striped tbody tr.striped-alt:nth-of-type(odd){background-color:rgba(0, 0, 255, 0.06);}
+table.table-striped tbody tr.striped-alt:nth-of-type(even){background-color:rgba(0, 0, 255, 0.03);}
+
+/* DT responsive */
+.dtr-details { width: 100%; }
+table.dataTable>tbody>tr.child span.dtr-title { display: block !important; width: auto; }
+.dataTable .btn    {padding-right: 12px; padding-left: 12px; }
+.dataTable .btn-sm {padding-right: 10px; padding-left: 10px; }
+.dataTable .btn-xs {padding-right:  5px; padding-left:  5px; }
+.dataTable .text-no-wrap { white-space: nowrap; }
+div.dataTables_wrapper div.dataTables_info { white-space: normal !important; }
+.cursor-pointer { cursor: pointer; }
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before { top: auto; }
+.report-filters .btn-group { margin-right: 8px; margin-bottom: 8px; }
+.report-filters .btn { white-space: initial; }
+.break-word   { word-break: break-all; }
+.table-smaller { font-size: 12px; }
+table.dataTable.table-smaller.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before,
+table.dataTable.table-smaller.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before{top:6px; }
+
+/* POP OVER */
+.popover{ max-width: 235px; }
+.modal-body { min-height: 200px; }
+
+/* Testing */
+.tpltest { /* background-color: rgba(255, 0, 0, 0.05); */ background-color: white; }
+
+
+/* Trattative */
+#wrapper-trattative .preview img { width: 64px; }
+
+
+/* action btn */
+.action-btn.btn    {padding-right: 12px; padding-left: 12px; }
+.action-btn.btn-sm {padding-right: 10px; padding-left: 10px; }
+.action-btn.btn-xs {padding-right:  5px; padding-left:  5px; }
+.action-btn { margin: 2px; }
+.action-btn.green { background-color: green; }
+.action-btn.red { background-color: red; }
+.btn-wrap { white-space: normal; }
+
+
+
+/* Dettagli progetto */
+#project_det, #project_det * { font-size: 12px; }
+.project_det_title { margin-top: 10px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #ddd; font-weight: bold; }
+
+
+/* Checkbox */
+.checkbox-input input { vertical-align: top; }
+
+
+/* Select 2 */
+.select2-results__option { padding: 0px !important; }
+.select2-results__option div { padding: 6px !important; }
+.select2-results__option[aria-selected=true] div { border: solid 2px red !important; }
+.select2-selection { border-radius: 0px !important; }
+
+
+/* Pdf catalog */
+#ptf_catalog_items_list div[class^="col-"] {  margin-bottom: 5px !important; }
+
+.pdf_catalog_book.active { background-color: yellow; }
+
+.pdf_catalog_book {
+  cursor: pointer;
+  margin: 5px 5px 15px 5px; 
+  padding: 3px;
+  width: auto;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  -moz-perspective: 100px;
+  -moz-transform: rotateY(-3deg);
+  -webkit-transform: perspective(100) rotateY(-3deg);
+  outline: 1px solid transparent;
+  box-shadow: 3px 3px 10px #999;
+}
+.pdf_catalog_book img { 
+  margin: 0px;
+}
+.pdf_catalog_book div { 
+  border: solid 1px #ddd;
+  margin-bottom: 5px;
+}
+
+@media (max-width:480px){
+  .pdf_catalog_book {
+    font-size:10px;
+  }
+}
+@media (max-width:380px){
+  .pdf_catalog_book {
+    min-height: 150px;
+  }
+}
+
+
+/* Share panel */
+@media (min-width:370px){
+.share-panel-inline { display: inline; }
+}
+.share-panel > .btn { font-size: 20px; padding: 1px 5px; margin: 2px; }
+.share-panel > .btn-share { }
+.share-panel > .btn-share img { width: 40px; }
+#item-share .share-panel > .btn-share img { width: auto; }
+
+#prev3d_zoom { z-index: 50; position: absolute; width: 200px; height: 200px; background-color: white; border: solid 1px #ddd; overflow: hidden; text-align: center; }
+#prev3d_img_zoom { position: absolute; top: 0px; left: 0px; }

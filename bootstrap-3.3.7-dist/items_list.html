@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<html lang='it' prefix='og: http://ogp.me/ns#'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='theme-color' content='#001e60'>
+
+	<title>Anagrafica Articoli - Atlantis Caps</title>
+
+    <link rel='icon' href='images2/favicon-32x32.png'   sizes='32x32'  >
+    <link rel='icon' href='images2/favicon-192x192.png' sizes='192x192'>
+
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' media='none' onload="if(media!='all')media='all'">
+	<noscript><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'></noscript>
+
+    <link rel='stylesheet' type='text/css' href='items_list_css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='items_list_css/font-awesome.min.css'>
+    <link rel='stylesheet' type='text/css' href='items_list_css/animate.css'>
+    <link rel='stylesheet' type='text/css' href='items_list_css/template.css'>    
+		
+	<link rel='stylesheet' type='text/css' href='items_list_css/template_atl.css'>
+	<link rel='stylesheet' type='text/css' href='items_list_css/extra_atl.css'>	
+	<link rel='stylesheet' type='text/css' href='items_list_css/sys_style.css?201801191721'>
+	<link rel='stylesheet' type='text/css' href='items_list_js/fancybox/jquery.fancybox.min.css'>
+
+    <link rel='stylesheet' type='text/css' href='items_list_js/DataTables/datatables.min.css'>
+    
+    
+    
+
+  </head>
+  <body class='' >
+    
+  <div class="topBar inverse">
+    <div class="container">
+                <ul class="list-inline pull-left hidden-sm hidden-xs">
+            
+            <li><i class='fa fa-phone mr-5'></i>+39 0421 571140</li>
+            <li><i class="fa fa-envelope mr-5"></i><a class='a-inline' href='mailto:federico@masteritalia.it'>federico@masteritalia.it</a></li>
+        </ul>
+        <ul class="list-inline pull-left visible-xs visible-sm">
+            <li>
+              <a id="needHelp" href='mailto:federico@masteritalia.it' data-toggle="tooltip" data-placement="bottom" data-html='true' title="Hai bisogno di aiuto?<br><i class='fa fa-envelope mr-5'></i>Atlantis Cap's">
+              	<span class='text'>Hai bisogno di aiuto?</span>
+                <span class='icon'><i class="fa fa-question-circle"></i> </span>
+              </a>
+            </li>
+        </ul>
+                <ul class="social-icons style2 pull-left hidden-sm hidden-xs">
+            <li class="facebook"><a class="semi-circle" target='_blank' href="https://www.facebook.com/atlantiscapshats"><i class="fa fa-facebook"></i></a></li>
+            <li class="instagram"><a class="semi-circle" target='_blank' href="https://www.instagram.com/atlantis_caps/"><i class="fa fa-instagram"></i></a></li>
+            <li class="twitter"><a class="semi-circle" target='_blank' href="https://twitter.com/AtlantisCaps"><i class="fa fa-twitter"></i></a></li>
+            <li class="linkedin"><a class="semi-circle" target='_blank' href="https://www.linkedin.com/company/atlantis-caps"><i class="fa fa-linkedin"></i></a></li>
+            <li class="pinterest"><a class="semi-circle" target='_blank' href="https://it.pinterest.com/atlantiscaps/"><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+        <ul class="topBarNav pull-right">
+            <li class='linkdown visible-sm-inline visible-xs-inline' id='notcli_mob'>
+              <a href="/myatl/profile/bids_waiting_for_feedback.php?hActive=1" data-toggle='tooltip' data-placement='bottom' title="Offerte per personalizzazione in attesa di feedback">
+                <i class='fa fa-check-square-o'></i>
+                <sub>1</sub>
+              </a>
+          
+              <a href="/myatl/profile/maturing_payments.php?hActive=1" data-toggle='tooltip' data-placement='bottom' title="Pagamenti in sospeso">
+                <i class='fa fa-credit-card'></i>
+                <sub>2</sub>
+              </a>
+          
+              <a href="/myatl/profile/mkt_potential_clients.php?hActive=1" data-toggle='tooltip' data-placement='bottom' title="Potenziali clienti in attesa di feedback">
+                <i class='fa fa-users'></i>
+                <sub>2</sub>
+              </a>
+          <li class='linkdown' id='notcli_mob'>
+            
+      <li class='linkdown' id='usermenu'>
+          <span class='hidden-xs usermenu_w'>Benvenuto</span>
+          <a href='javascript:void(0);'>
+              <i class='fa fa-user-circle mr-5 visible-xs-inline'></i>
+              <span class='hidden-xs'>
+                  <img src='/myatl/service/user_logo.php?codute=12051262&1515773060' alt='Logo' class='img-circle' style='max-width: 35px; max-height: 35px;'>
+                  <span class='ragsoc'>ZZZ-MASTER ITALIA SPA</span>
+                  <i class='fa fa-angle-down ml-5'></i>
+              </span>
+          </a>
+          <ul class='w-200'>
+              <li class='visible-xs text-gray addpad'>Benvenuto</li>
+              <li class='visible-xs text-gray addpad'>ZZZ-MASTER ITALIA SPA</li>
+              <li class='visible-xs divider'></li>
+              <li><a class=''            href='/myatl/profile/index.php' id='link_homaut'><i class='fa fa-angle-right'></i>  Home</a></li>
+              <li class='divider'></li>
+              <li><a class='' href='/myatl/profile/my_data.php'><i class='fa fa-angle-right'></i>  I miei dati</a></li><li><a class='' href='/myatl/profile/my_prices.php'><i class='fa fa-angle-right'></i>  I miei prezzi di acquisto</a></li><li><a class='' href='/myatl/profile/my_graphic_projects.php'><i class='fa fa-angle-right'></i>  I miei progetti grafici</a></li><li><a class='' href='/myatl/profile/my_orders.php'><i class='fa fa-angle-right'></i>  I miei ordini</a></li><li><a class='' href='/myatl/profile/my_productions_in_progress.php'><i class='fa fa-angle-right'></i>  Operativit� delle produzioni in corso</a></li><li><a class='' href='/myatl/profile/my_ptf_history.php'><i class='fa fa-angle-right'></i>  ARCHIVIO PTF</a></li><li><a class='' href='/myatl/profile/bids_waiting_for_feedback.php'><i class='fa fa-angle-right'></i>  Offerte in attesa di feedback</a></li><li><a class='' href='/myatl/profile/my_production_archive.php'><i class='fa fa-angle-right'></i>  Archivio delle mie produzioni</a></li><li><a class='' href='/myatl/profile/transport_costs.php'><i class='fa fa-angle-right'></i>  Costi di trasporto</a></li><li><a class='' href='/myatl/profile/my_tracking.php'><i class='fa fa-angle-right'></i>  Le mie spedizioni/Tracking</a></li><li><a class='' href='/myatl/profile/invoices.php'><i class='fa fa-angle-right'></i>  Le mie Fatture</a></li><li><a class='' href='/myatl/profile/maturing_payments.php'><i class='fa fa-angle-right'></i>  Pagamenti in Scadenza</a></li><li><a class='' href='/myatl/profile/statement_of_account.php'><i class='fa fa-angle-right'></i>  Estratto conto</a></li><li><a class='' href='/myatl/profile/change_password.php'><i class='fa fa-angle-right'></i>  Cambia password</a></li><li><a class='' href='/myatl/profile/my_statistics.php'><i class='fa fa-angle-right'></i>  Statistiche</a></li>
+              <li><a class=''            href='/myatl/profile/items_list.php?hAuthCmd=logout' id='link_logout'><i class='fa fa-angle-right'></i>  Logout</a></li>
+          </ul>
+      </li>
+    
+            
+    <li class='linkdown cartstate'>
+      <a href="javascript:void(0);">
+        <i class='fa fa-shopping-basket mr-5'></i>
+        <span class='hidden-xs'>
+            Carrello
+            <sup class='text-primary'></sup>
+            <i class='fa fa-angle-down ml-5'></i>
+        </span>
+        <sup class='text-primary visible-xs-inline'></sup>
+      </a>
+      <ul class='cart w-250'>
+        <li>
+          <div class='cart-items'>
+            <ol class='items'>
+              <li class='empty_cart'>Carrello vuoto</li><li class='empty_cart'><a href='/myatl/profile/ecommerce_catalogue.php'class='pull-left'><i class='fa fa-search mr-5'></i>Aggiungi articoli</a></li>
+            </ol>
+          </div>
+        </li>
+        <li>
+            <div class='cart-footer'>
+                <a href='/myatl/profile/ecommerce_cart.php'  class='pull-left'><i class='fa fa-cart-plus mr-5'></i>Vai al carrello</a>
+                <a href='/myatl/profile/ecommerce_cart.php?checkout=1' class='pull-right'><i class='fa fa-shopping-basket mr-5'></i>Checkout</a>
+            </div>
+        </li>
+      </ul>
+    </li>
+  
+                        <li class="linkdown w-125">
+                <a href="javascript:void(0);">
+                    <img src="images2/flags/it.png" class="mr-5" alt="">
+                    <span class="hidden-xs">Italiano<i class="fa fa-angle-down ml-5"></i></span>
+                </a>
+                <ul class="w-125">
+                    <li><a href="/myatl/profile/items_list.php?lang=bg"><img src='images2/flags/bg.png' class='mr-5' alt="Bulgarian">Bulgarian</a></li><li><a href="/myatl/profile/items_list.php?lang=cz"><img src='images2/flags/cz.png' class='mr-5' alt="Ce�tina">Ce�tina</a></li><li><a href="/myatl/profile/items_list.php?lang=zh"><img src='images2/flags/zh.png' class='mr-5' alt="??">??</a></li><li><a href="/myatl/profile/items_list.php?lang=hr"><img src='images2/flags/hr.png' class='mr-5' alt="Hrvatski">Hrvatski</a></li><li><a href="/myatl/profile/items_list.php?lang=fi"><img src='images2/flags/fi.png' class='mr-5' alt="Suomi">Suomi</a></li><li><a href="/myatl/profile/items_list.php?lang=fr"><img src='images2/flags/fr.png' class='mr-5' alt="Fran�ais">Fran�ais</a></li><li><a href="/myatl/profile/items_list.php?lang=jp"><img src='images2/flags/jp.png' class='mr-5' alt="???">???</a></li><li><a href="/myatl/profile/items_list.php?lang=el"><img src='images2/flags/el.png' class='mr-5' alt="???????a">???????a</a></li><li><a href="/myatl/profile/items_list.php?lang=en"><img src='images2/flags/en.png' class='mr-5' alt="English">English</a></li><li><a href="/myatl/profile/items_list.php?lang=lt"><img src='images2/flags/lt.png' class='mr-5' alt="Lietuvos">Lietuvos</a></li><li><a href="/myatl/profile/items_list.php?lang=pl"><img src='images2/flags/pl.png' class='mr-5' alt="Polski">Polski</a></li><li><a href="/myatl/profile/items_list.php?lang=pt"><img src='images2/flags/pt.png' class='mr-5' alt="Portugu�s">Portugu�s</a></li><li><a href="/myatl/profile/items_list.php?lang=ro"><img src='images2/flags/ro.png' class='mr-5' alt="Rom�na">Rom�na</a></li><li><a href="/myatl/profile/items_list.php?lang=ru"><img src='images2/flags/ru.png' class='mr-5' alt="???????">???????</a></li><li><a href="/myatl/profile/items_list.php?lang=si"><img src='images2/flags/si.png' class='mr-5' alt="Slovenski">Slovenski</a></li><li><a href="/myatl/profile/items_list.php?lang=es"><img src='images2/flags/es.png' class='mr-5' alt="Espa�ol">Espa�ol</a></li><li><a href="/myatl/profile/items_list.php?lang=sv"><img src='images2/flags/sv.png' class='mr-5' alt="Svenska">Svenska</a></li><li><a href="/myatl/profile/items_list.php?lang=de"><img src='images2/flags/de.png' class='mr-5' alt="Deutsch">Deutsch</a></li><li><a href="/myatl/profile/items_list.php?lang=uk"><img src='images2/flags/uk.png' class='mr-5' alt="Ukrainian">Ukrainian</a></li><li><a href="/myatl/profile/items_list.php?lang=hu"><img src='images2/flags/hu.png' class='mr-5' alt="Magyar">Magyar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- end container -->
+</div>
+<!-- End TopBar --><!-- middleBar -->
+<div class="middleBar">
+    <div class="container">
+        <div class="row display-table ">
+                        <div class="col-sm-2 vertical-align text-left hidden-xs ">
+                <a href="/myatl/profile/index.php">
+                    <img src="images2/ATL_customarea.png" id="logo" alt="Atlantis Cap's">
+                </a>
+            </div><!-- end col -->
+                        <div class="col-sm-10 col-md-7 vertical-align text-center">
+                <form id='form_ricerca' action='/myatl/profile/ecommerce_catalogue.php' method='GET'>
+                    <div class="row grid-space-1 grid-space-1-xs">
+                        <div class="col-sm-3 col-xs-3">
+                            <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default btn-block btn-lg btn-riccat" data-toggle="dropdown" id='riccat-button'>
+        <span class='hidden-xs'><span class='text' data-ori="Categorie">Categorie</span><i class="fa fa-angle-down ml-5"></i></span>
+        <span class='visible-xs mobile'><i class='fa fa-list'></i></span>
+    </button><ul class='dropdown-menu' id='riccat'><li><a onClick="form_ricerca_catego( this, '');"><img src="images2/shapes/submenuks_empty_s.png" alt='' class='middle_bar_shape'> Tutte le Categorie</a></li><li><a onClick="form_ricerca_catego( this, '94');"><img src="images2/shapes/icon_forme_sixpanels.svg" alt='' class='middle_bar_shape'> Baseball 6 pannelli</a></li><li><a onClick="form_ricerca_catego( this, '93');"><img src="images2/shapes/icon_forme_fivepanels.svg" alt='' class='middle_bar_shape'> Baseball 5 pannelli</a></li><li><a onClick="form_ricerca_catego( this, '294');"><img src="images2/shapes/icon_forme_flatvisor.svg" alt='' class='middle_bar_shape'> Visiera Piatta</a></li><li><a onClick="form_ricerca_catego( this, '107');"><img src="images2/shapes/icon_forme_trucker.svg" alt='' class='middle_bar_shape'> Trucker</a></li><li><a onClick="form_ricerca_catego( this, '96');"><img src="images2/shapes/icon_forme_army.svg" alt='' class='middle_bar_shape'> Militare</a></li><li><a onClick="form_ricerca_catego( this, '99');"><img src="images2/shapes/icon_forme_beanie.svg" alt='' class='middle_bar_shape'> Cuffie</a></li><li><a onClick="form_ricerca_catego( this, '356');"><img src="images2/shapes/icon_forme_aviator.svg" alt='' class='middle_bar_shape'> Aviatore</a></li><li><a onClick="form_ricerca_catego( this, '104');"><img src="images2/shapes/icon_forme_bucket.svg" alt='' class='middle_bar_shape'> Pescatore</a></li><li><a onClick="form_ricerca_catego( this, '101');"><img src="images2/shapes/icon_forme_fedora.svg" alt='' class='middle_bar_shape'> Fedora</a></li><li><a onClick="form_ricerca_catego( this, '103');"><img src="images2/shapes/icon_forme_ivy.svg" alt='' class='middle_bar_shape'> Coppole</a></li><li><a onClick="form_ricerca_catego( this, '102');"><img src="images2/shapes/icon_forme_gloves.svg" alt='' class='middle_bar_shape'> Guanti</a></li><li><a onClick="form_ricerca_catego( this, '106');"><img src="images2/shapes/icon_forme_scarf.svg" alt='' class='middle_bar_shape'> Sciarpe</a></li><li><a onClick="form_ricerca_catego( this, '98');"><img src="images2/shapes/icon_forme_bandana.svg" alt='' class='middle_bar_shape'> Bandana</a></li><li><a onClick="form_ricerca_catego( this, '318');"><img src="images2/shapes/icon_forme_kid.svg" alt='' class='middle_bar_shape'> Bambino</a></li></ul><div style='display:none;'><select class='sFind' size='1' name='catego' id='catego' >
+<option value='' selected >ricerc_catego_tutte</option>
+<option value='94' >ricerc_catego_6panels</option>
+<option value='93' >ricerc_catego_5panels</option>
+<option value='294' >ricerc_catego_flatvisor</option>
+<option value='107' >ricerc_catego_trucker</option>
+<option value='96' >ricerc_catego_army</option>
+<option value='99' >ricerc_catego_beanie</option>
+<option value='356' >ricerc_catego_aviator</option>
+<option value='104' >ricerc_catego_bucket</option>
+<option value='101' >ricerc_catego_fedora</option>
+<option value='103' >ricerc_catego_ivy</option>
+<option value='102' >ricerc_catego_gloves</option>
+<option value='106' >ricerc_catego_scarves</option>
+<option value='98' >ricerc_catego_bandana</option>
+<option value='318' >ricerc_catego_kid</option>
+
+</select>
+</div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-sm-6 col-xs-6">
+                            <input id="searchInput" type="text" name="string" class="form-control input-lg" placeholder="Cerca" value="">
+                        </div><!-- end col-->
+                        <div class="col-sm-3 col-xs-3">
+                            <button id="searchButton" type="submit" class="btn btn-default btn-block btn-lg btn-riccat">
+                            <span class='hidden-xs mr-5'>Cerca</span>
+                            <i class="fa fa-search"></i>
+                            </button>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </form>
+            </div>
+            <!-- end col -->
+            <div class='col-md-3 vertical-align header-items hidden-xs hidden-sm'>
+      	  <div class='header-item'>
+            <a href="/myatl/profile/bids_waiting_for_feedback.php?hActive=1" data-toggle='tooltip' data-placement='top' title="Offerte per personalizzazione in attesa di feedback">
+              <i class='fa fa-check-square-o'></i>
+              <sub>1</sub>
+            </a>
+          </div>
+        
+      	  <div class='header-item'>
+            <a href="/myatl/profile/maturing_payments.php?hActive=1" data-toggle='tooltip' data-placement='top' title="Pagamenti in sospeso">
+              <i class='fa fa-credit-card'></i>
+              <sub>2</sub>
+            </a>
+          </div>
+        
+      	  <div class='header-item'>
+            <a href="/myatl/profile/mkt_potential_clients.php?hActive=1" data-toggle='tooltip' data-placement='top' title="Potenziali clienti in attesa di feedback">
+              <i class='fa fa-users'></i>
+              <sub>2</sub>
+            </a>
+          </div>
+        </div><!-- end col -->
+        </div><!-- end  row -->
+    </div><!-- end container -->
+</div><!-- end middleBar --><div class="navbar yamm navbar-default" id='main-nav-menu'>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-3" class="navbar-toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/myatl/profile/index.php" class="navbar-brand visible-xs">
+                <img src="images2/ATL_custarea.png" style="max-width: 170px" alt="Atlantis Cap's">
+            </a>
+        </div>
+        <div id="navbar-collapse-3" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            <li class=' left '><a href="/myatl/profile/index.php" ><i class="fa fa-home" aria-hidden="true"></i></a></li><li class=' left  active  dropdown '><a href='#' data-toggle='dropdown' class='dropdown-toggle'>Mondo Atlantis<i class='fa fa-angle-down ml-5'></i></a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/ecommerce_catalogue.php" >Compra dalle collezioni Atlantis</a></li><li class=' left '><a href="/myatl/profile/ecommerce_catalogue_origin.php" >Compra dal magazzino in Asia</a></li><li class=' left  active '><a href="/myatl/profile/items_list.php" >Anagrafica Articoli</a></li><li class=' left '><a href="/myatl/profile/glossary.php" >Glossario (solo inglese)</a></li><li class=' left '><a href="/myatl/profile/my_orders.php" >I miei ordini</a></li><li class=' left '><a href="/myatl/profile/my_prices.php" >I miei prezzi di acquisto</a></li></ul></li><li class=' left  dropdown '><a href='#' data-toggle='dropdown' class='dropdown-toggle'>Mondo Custom-Made<i class='fa fa-angle-down ml-5'></i></a><ul class='dropdown-menu'><li class=' left  dropdown-submenu '><a>Linee Guida</a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/custom_made_guide.php" >Guida Completa al Custom Made</a></li><li class=' left '><a href="/myatl/profile/hat_ideas.php" >Lasciati Ispirare</a></li><li class=' left '><a href="/myatl/profile/get_inspired.php" >Lasciati Ispirare</a></li><li class=' left '><a href="/myatl/profile/fabric-finder.php" >Tessuti Disponibili</a></li><li class=' left '><a href="/myatl/profile/color-finder.php" >Pantone Disponibile</a></li></ul></li><li class=' left '><a href="http://www.masteritalia.it/clienti/congra2/index.php?sReset=1&typemst=R&subtype=C&sorg=www.masteritalia.it/clienti/" target='_blank'>Atlantis Design Software - Europa</a></li><li class=' left '><a href="http://www.masteritalia.it/clienti/congra2/index.php?sReset=1&typemst=C&sorg=www.masteritalia.it/clienti/" target='_blank'>Atlantis Design Software - Far East</a></li><li class=' left '><a href="/myatl/profile/quotation.php" >Richiedi Quotazione</a></li><li class=' left '><a href="/myatl/profile/my_productions_in_progress.php" >Operativit� delle produzioni in corso</a></li><li class=' left '><a href="/myatl/profile/my_ptf_history.php" >ARCHIVIO PTF</a></li><li class=' left '><a href="/myatl/profile/bids_waiting_for_feedback.php" >Offerte in attesa di feedback</a></li><li class=' left '><a href="/myatl/profile/my_graphic_projects.php" >I miei progetti grafici</a></li><li class=' left '><a href="/myatl/profile/my_production_archive.php" >Archivio delle mie produzioni</a></li></ul></li><li class=' left  dropdown '><a href='#' data-toggle='dropdown' class='dropdown-toggle'>Contabilit�<i class='fa fa-angle-down ml-5'></i></a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/invoices.php" >Le mie Fatture</a></li><li class=' left '><a href="/myatl/profile/maturing_payments.php" >Pagamenti in Scadenza</a></li><li class=' left '><a href="/myatl/profile/statement_of_account.php" >Estratto conto</a></li></ul></li><li class=' left  dropdown '><a href='#' data-toggle='dropdown' class='dropdown-toggle'>Atlantis Team Manager (ATM)<i class='fa fa-angle-down ml-5'></i></a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/multi_level_what_is.php" >Cos'� Atlantis Team manager (ATM)?</a></li><li class=' left '><a href="/myatl/profile/mkt_manage_clients_area.php" >Gestione dei vostri Clienti e Agenti</a></li><li class=' left '><a href="/myatl/profile/mkt_potential_clients.php" >Clienti Potenziali</a></li><li class=' left '><a href="/myatl/profile/mkt_new_web_page.php" >Crea una pagina web per un tuo cliente</a></li></ul></li>
+            </ul>
+            <!-- end navbar-nav -->
+            <ul class="nav navbar-nav navbar-right">
+            <li class=' right  dropdown '><a href='#' data-toggle='dropdown' class='dropdown-toggle'><span class='hidden-sm'>Strumenti di Marketing<i class='fa fa-angle-down ml-5'></i></span><span class='visible-sm-inline'><i class='fa fa-bars ml-5'></i></span></a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/mkt_card_invite.php" >Invita nell'Atlantis Club</a></li><li class=' left '><a href="/myatl/profile/mkt_card_stat.php" >Statistiche Club Card</a></li><li class=' left '><a href="/myatl/profile/pop.php" >Materiale supporto alla vendita</a></li><li class=' left '><a href="/myatl/profile/mkt_gencat.php" >Generatore di Catalogo</a></li><li class=' left '><a href="/myatl/profile/mkt_genweb.php" >Generatore Pagine Web</a></li><li class=' left '><a href="/myatl/profile/mkt_ecommerce_tools.php" >Strumenti per e-commerce</a></li><li class=' left '><a href="/myatl/profile/widgets.php" >Widgets</a></li><li class=' left  dropdown-submenu '><a>Scarica</a><ul class='dropdown-menu'><li class=' left '><a href="/myatl/profile/mkt_catalo.php" >Cataloghi</a></li><li class=' left '><a href="/myatl/profile/mkt_certifications.php" >Certificazioni</a></li><li class=' left '><a href="/myatl/profile/mkt_images.php" >Immagini e Loghi</a></li><li class=' left '><a href="/myatl/profile/mkt_forms.php" >Modulistica</a></li></ul></li></ul></li>
+            </ul>
+            <!-- end navbar-nav right -->
+        </div>
+        <!-- end navbar collapse -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end navbar -->        <div class="breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul>
+							<li class=''><a href="/myatl/profile/index.php" ><i class="fa fa-home" aria-hidden="true"></i></a></li><li class=''><span>Mondo Atlantis</span></li><li class='active'><a href="/myatl/profile/items_list.php" >Anagrafica Articoli</a></li>
+                        </ul>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end breadcrumbs --><div id='page-content'>
+<div class="container-fluid">
+	<br>
+			<div class="row">
+				<div class="col-sm-6">
+					<a href="/myatl/files/API/Atlantis_SKU.zip" target="_blank" class="btn btn-default btn-block">
+						DATABASE ARTICOLI ATLANTIS
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="/myatl/files/API/API_ATLANTIS_ECOM_ITA.pdf#nameddest=db_atlantis_xml" target="_blank" class="btn btn-default btn-block">
+						API ATLANTIS
+					</a>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div  class="col-sm-6">
+					<a href="barcode_csv.php" target="_blank" class="btn btn-default btn-block">
+						BARCODE E NOMENCLATURA ARTICOLI
+					</a>
+				</div>
+				<div  class="col-sm-6">
+					<a href="select_art_for_cat.php" target="_blank" class="btn btn-default btn-block">
+						CREA UN CATALOGO STAMPABILE
+					</a>
+				</div>
+			</div>
+		<div>
+			<h4 class="title">
+            	Tabella Articoli
+            </h4>
+		</div>
+		<table id="main_data" class="hidden table table-center table-striped table-bordered dt-responsive table-condensed" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<th>Immagine</th>
+					<th>Nome</th>
+					<th>Codice</th>
+					<th>Imballo</th> <th>Immagine HD</th> <th>3D Simulator</th>
+					<th>Vista 360�</th>
+					<th>Video</th>
+					<th class="hidden-xs hidden-sm">Pendaglio</th>		<th>Certificazioni</th>		<th>Scheda Tecnica</th>
+					<th>Immagini tecniche</th>		<th>Immagini Alta Quali�</th>
+					<th>Immagini Bassa Risoluzione</th>		</tr>
+			</thead>
+			<tbody>
+				
+				
+				
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_CODY.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>CORDY</td><td>CODY</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','CODY')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','CODY')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','CODY')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','CODY')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','CODY')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/CODY.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=CORDY,CODY,0,0,MR|NV|NR|ST" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_CORX.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>CORK</td><td>CORX</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','CORX')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','CORX')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','CORX')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','CORX')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/CORX.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=CORK,CORX,0,0,BI|NV|NR" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_CRTE.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>CORTEZ</td><td>CRTE</td><td>12/72</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','CRTE')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','CRTE')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','CRTE')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','CRTE')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/CRTE.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=CORTEZ,CRTE,0,0,NAXL|NASM" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_CREP.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>CREEP</td><td>CREP</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','CREP')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','CREP')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','CREP')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','CREP')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','CREP')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('technical_images','Immagini tecniche','CREP')">
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/THS_ICO_CREP.JPG" style="max-height:80px; width:auto;">
+						</figure>
+					</a></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/CREP.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=CREEP,CREP,0,0,BE|GR|GRSC|NV|NR|OL|RS|SV" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_DSTY.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>DASTY</td><td>DSTY</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','DSTY')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','DSTY')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','DSTY')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','DSTY')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/DSTY.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=DASTY,DSTY,0,0,GR|NV|NR" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_DYNA.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>DYNAMIC</td><td>DYNA</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','DYNA')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('virtual_config','3D Simulator','DYNA')">
+						<figure >
+							<img src="../assmod/icons/3D-SIMULATOR.PNG" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','DYNA')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','DYNA')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','DYNA')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','DYNA')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/DYNA.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=DYNAMIC,DYNA,0,0,DE|NV|NR|OL" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_ECPO.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>ECO POLAR</td><td>ECPO</td><td>12/72</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','ECPO')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','ECPO')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','ECPO')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','ECPO')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/ECPO.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=ECO POLAR,ECPO,0,0,KASS|NRSS|NRS" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_ERNE.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>ERNEST</td><td>ERNE</td><td>6/48</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','ERNE')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','ERNE')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','ERNE')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','ERNE')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','ERNE')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/ERNE.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=ERNEST,ERNE,0,0,KAXL|KASM|NAXL|NASM" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_ESTO.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>ESTORIL</td><td>ESTO</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','ESTO')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('virtual_config','3D Simulator','ESTO')">
+						<figure >
+							<img src="../assmod/icons/3D-SIMULATOR.PNG" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','ESTO')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','ESTO')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','ESTO')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/ESTO.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=ESTORIL,ESTO,0,0,BI|NV|NR|RO" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_EVBA.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>EVEREST BAND</td><td>EVBA</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','EVBA')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','EVBA')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','EVBA')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','EVBA')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/EVBA.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=EVEREST BAND,EVBA,0,0,FU|GI|NA|NR|RO|RY" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_EVER.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>EVEREST BEANIE</td><td>EVER</td><td>24/96</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','EVER')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','EVER')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','EVER')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','EVER')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/EVER.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=EVEREST BEANIE,EVER,0,0,GRFU|GRGR|NRBO|OLVE|RYAZ|RYBI|RYGI|VEBI" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_EXTR.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>EXTREME</td><td>EXTR</td><td>24/144</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','EXTR')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><div style="font-size:1px">.</div></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','EXTR')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','EXTR')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','EXTR')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','EXTR')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/EXTR.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=EXTREME,EXTR,0,0,BINR|FUGR|GINR|GRAR|NVGI|NVGR|NRGR|NRVE|TUVE" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+				
+				
+				
+				<tr>
+					<td>
+						<figure>
+							<img src="https://www.masteritalia.it/clienti/catimg_resp/TNI_ZOPI.JPG" style="height:80px; width: auto;" alt="">
+						</figure></td><td>ZOOM PIPING SANDWICH</td><td>ZOPI</td><td>50/200</td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('var_color','Immagine HD','ZOPI')">
+						<figure >
+							<img src="../assmod/icons/icon_images.svg" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('virtual_config','3D Simulator','ZOPI')">
+						<figure >
+							<img src="../assmod/icons/3D-SIMULATOR.PNG" style="height:50px; width: auto;" alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('view360','360�','ZOPI')">
+						<figure >
+							<img src="../assmod/icons/icon_360_gradi.svg" style="height:50px; " alt="">
+						</figure>
+					</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('video_youtube','Video Youtube','ZOPI')">
+						<figure >
+							<img src="../assmod/icons/icon_youTube.svg" style="height:50px; width:auto; " alt="">
+						</figure></a></td><td class="hidden-xs hidden-sm">	<a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('hangtag','Pendaglio','ZOPI')">
+							<figure >
+								<img src="../assmod/icons/icon_etichetta.svg" style="height:50px; width:auto; " alt="">
+							</figure>
+						</a></td><td>
+						<a href="../assmod/certificato/Certificato BYS MASTER ITALIA_eng 2018.pdf" target="_blank">
+							<figure>
+								<img src="../assmod/icons/icon_certification.svg"  style="height:50px; width:auto; alt="">
+							</figure>	
+						</a></td><td><a type="button" data-toggle="modal" data-target="#modal_panel" onClick="js_modal_panel('tech_sheet','Scheda Tecnica','ZOPI')">
+					<figure >
+						<img src="../assmod/icons/icon_pdf.svg"  style="height:50px; width:auto; alt="">
+					</figure>		
+				</a></td><td><div style="font-size:1px">.</div></td><td>
+						<a href=" http://www.masteritalia.it/clienti/IMAGES_HR/ZOPI.zip" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td><td>
+						<a href=" ../mod_ext/zipper/zipper.php?links_get_all=ZOOM PIPING SANDWICH,ZOPI,0,0,AR|AZ|BI|GI|GR|KA|NV|NR|RS|RO|RY|VE" target="_blank">
+							<div class="fa fa-file-photo-o fa-2x"></div>
+						</a>
+					</td></tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+	<div class="modal fade " id="modal_panel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog  modal-lg" role="document">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>			
+					<h4 id="modal_title_panel"></h4>
+				</div>
+				<div class="modal-body" id="modal_body_panel" style="padding:0;">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><!-- page content -->
+<!-- start footer -->
+<footer class="footer light">
+    <div class="container">       
+        <div class="row">
+        	<div class='col-md-2 col-sm-4 col-xs-12'><h5 class='title'>Collezione Atlantis</h5><div class='footer-link'><a href="/myatl/profile/sticker_guide.php" >Guida agli sticker</a></div><div class='footer-link'><a href="/myatl/profile/product_info.php" >Info Prodotto</a></div><div class='footer-link'><a href="/myatl/profile/traceability.php" >Tracciabilit�</a></div><div class='footer-link'><a href="/myatl/profile/one_touch_cap.php" >One Touch Technology�</a></div><div class='footer-link'><a href="/myatl/profile/nfc_tecnology.php" >Tecnologia NFC</a></div><div class='footer-link'><a href="/myatl/profile/gore_tex_and_windstopper.php" >Gore-Tex� e Windstopper�</a></div><div class='footer-link'><a href="/myatl/profile/mkt_certifications.php" >Certificazioni</a></div><div class='footer-link'><a href="/myatl/profile/../files/mkt_images/ATLANTIS_LOGO_2015.pdf" target='_blank'>Loghi Atlantis</a></div></div><div class='col-md-2 col-sm-4 col-xs-12'><h5 class='title'>Strumenti di Marketing</h5><div class='footer-link'><a href="/myatl/profile/mkt_catalo.php" >Cataloghi</a></div><div class='footer-link'><a href="/myatl/profile/mkt_images.php" >Immagini e Loghi</a></div><div class='footer-link'><a href="/myatl/profile/mkt_gencat.php" >Generatore di Catalogo</a></div><div class='footer-link'><a href="/myatl/profile/mkt_genweb.php" >Generatore Pagine Web</a></div><div class='footer-link'><a href="/myatl/profile/mkt_ecommerce_tools.php" >Strumenti per e-commerce</a></div><div class='footer-link'><a href="/myatl/profile/pop.php" >Materiale supporto alla vendita</a></div></div><div class='col-md-2 col-sm-4 col-xs-12'><h5 class='title'>Conoscere il Custom-Made</h5><div class='footer-link'><a href="/myatl/profile/graphic_design.php" >Servizio Grafico</a></div><div class='footer-link'><a href="/myatl/profile/ats.php" >Atlantis Tracking System</a></div><div class='footer-link'><a href="/myatl/profile/cap_academy.php" >Cap Academy</a></div><div class='footer-link'><a href="/myatl/profile/co_branding.php" >Co Branding</a></div><div class='footer-link'><a href="/myatl/profile/aeo.php" >Authorised Economic Operator(AEO)</a></div></div><div class='col-md-2 col-sm-4 col-xs-12'><h5 class='title'>I Nostri Servizi</h5><div class='footer-link'><a href="/myatl/profile/company.php" >L'azienda</a></div><div class='footer-link'><a href="/myatl/profile/cookies.php" >Cookies</a></div><div class='footer-link'><a href="/myatl/profile/responsibility.php" >Responsabilit� Sociale</a></div><div class='footer-link'><a href="/myatl/profile/bank_account.php" >Coordinate bancarie</a></div><div class='footer-link'><a href="/myatl/profile/hospitality.php" >Ospitalit�</a></div><div class='footer-link'><a href="/myatl/profile/fob.php" >Magazzino Shanghai</a></div></div><div class='col-md-2 col-sm-4 col-xs-12'><h5 class='title'>News</h5><div class='footer-link'><a href="/myatl/profile/news.php" >Novit�</a></div><div class='footer-link'><a href="/myatl/profile/events.php" >Eventi</a></div><div class='footer-link'><a href="/myatl/profile/social.php" ><i class="fa fa-facebook-square fa-2" style="color:#3b5998;" ></i>
+<i class="fa fa fa-twitter-square fa-2" style="color:#02a8f4;"  ></i> 
+Socials</a></div><div class='footer-link'><a href="https://www.youtube.com/channel/UCQ53aioosZQ6sfGZLiRyv0w" target='_blank'><i class="fa fa-youtube-play" aria-hidden="true" style="color:#f14747;"></i>Youtube</a></div><div class='footer-link'><a href="/myatl/profile/ambassador.php" >Diventa ambasciatore Atlantis</a></div><div class='footer-link'><a href="/myatl/profile/sponsorship.php" >Sponsorizzazioni</a></div></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center copyright">
+            <div class="col-sm-12">
+                <p class="text-xs">&COPY; 2018 Made by: Atlantis Cap's</p>
+            </div>
+        </div>
+    </div>
+</footer><!-- end footer -->
+
+	<script type='text/javascript' src='items_list_js/jquery-3.2.1.min.js'></script>
+	<script type='text/javascript' src='items_list_js/bootstrap.min.js'></script>
+
+
+  <!-- Content Extra --> 
+  
+  
+  
+      <script type='text/javascript' src='items_list_js/DataTables/datatables.min.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/plugin/moment.min.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/plugin/datetime-moment.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/datatable_default.js?lang=it' id='datatable-defualt-js' data-lang-file='items_list_js/DataTables/lang/lang_it.js'></script>
+    	<script>
+	var main_data = null;
+  $(document).ready(function() {
+   	$('#main_data img[data-src]').each(function(){
+      $(this).attr( 'src', $(this).attr('data-src') );
+    });
+// gestisce la tabella
+    main_data = $('#main_data').DataTable({
+      order: [],
+	  paging: true ,
+      columnDefs: [
+        // { className: "text-right", "targets": [ 0, 1, 2 ] }	
+		  { responsivePriority: 1, targets: 0 }, 
+		  { responsivePriority: 2, targets: 1 }  
+      ],
+      initComplete: function(settings, json) {
+      	$('#main_data').removeClass('hidden');
+      }
+      
+    });
+  });
+ //https://new.atlantis-caps.com/myatl/card/my_data_modal.php
+	function js_modal_panel(section, title, id){
+		var modal_body="<div>"; // class='embed-responsive embed-responsive-16by9' style='padding-bottom:100%;'>";
+		modal_body+="		<div>"; // 
+		modal_body+="			<iframe src=modal_HD.html?section_type="+section+"&id_art="+id
+		                        +" style='width:100%;height:600px;border:0px;'"; 
+		modal_body+="			onload='modal_body_panel_loaded(this);' ";
+		modal_body+="			 >";
+		modal_body+="			</iframe>";
+		modal_body+="		</div> ";
+		modal_body+="  </div> ";
+		document.getElementById("modal_body_panel").innerHTML=modal_body;
+		document.getElementById("modal_title_panel").innerHTML=title;
+	}
+		// chiude l'iframe se ha cose aperte
+	$("#modal_panel").on('hidden.bs.modal', function (e) {
+    $("#modal_panel iframe").attr("src", $("#modal_panel iframe").attr("src"));
+  
+});                  
+
+  //$( "#modal_body_panel" ).on( "click", "div", function() {
+  // $(this).height($(this).contents().height()); 
+  // });
+  
+  function modal_body_panel_loaded ( obj ) {
+   $(obj).height($(obj).contents().height()); 
+   $(obj).width($(obj).contents().width()); 
+  }
+  
+</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106851412-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('items_list_js', new Date());
+  gtag('config', 'UA-106851412-1');
+</script>
+
+
+<link rel='stylesheet' type='text/css' href='items_list_js/DataTables/datatables.min.css'>
+      <script type='text/javascript' src='items_list_js/DataTables/datatables.min.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/plugin/moment.min.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/plugin/datetime-moment.js'></script>
+      <script type='text/javascript' src='items_list_js/DataTables/datatable_default.js?lang=it' id='datatable-defualt-js' data-lang-file='items_list_js/DataTables/lang/lang_it.js'></script>
+    
+  
+  </body>
+</html>

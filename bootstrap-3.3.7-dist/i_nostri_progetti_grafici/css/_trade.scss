@@ -1,0 +1,420 @@
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/* SCROLLED */
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+.scrolled{
+	.navbar-fixed-top{
+		@media screen and (min-width: 768px) {
+			background: $bianco_alpha9;
+			top: -36px;
+			@include anim_hover_all;
+		}
+		.navbar-blue{
+			ul.nav{
+				li{
+					a{
+						@media screen and (min-width: 768px) {
+							padding-top: 7px!important;
+							padding-bottom: 7px!important;
+						}
+					}
+				}
+			}
+		}
+		.main_menu{
+			@media screen and (min-width: 768px) {
+				height: 60px!important;
+				@include anim_hover_all;
+			}
+			li{
+				a{
+					@media screen and (min-width: 768px) {
+						padding-top: 20px!important;
+	    				padding-bottom: 21px!important;
+	    			}
+					&:after{
+						@media screen and (min-width: 768px) {
+							bottom: 5px!important;
+						}
+					}
+					&:hover{
+						&:after{
+							@media screen and (min-width: 768px) {
+								bottom:15px!important;
+							}
+						}
+					}
+				}
+				&.active>a{
+					&:after{
+						@media screen and (min-width: 768px) {
+							bottom: 15px!important;
+						}
+					}
+				}
+			}
+		}
+		.navbar-brand{
+			@media screen and (min-width: 768px) {
+				top: 34px!important;
+				@include anim_hover_all;
+			}
+			img{
+				@media screen and (min-width: 768px) {
+					height: 35px!important;
+					width: auto!important;
+					@include anim_hover_all;
+				}
+			}
+		}
+	}
+	.navbar-fixed-top{
+			&:hover{
+				@media screen and (min-width: 768px) {
+					top: 0px;
+					opacity: 1;
+					.navbar-header{
+						.navbar-brand{
+							    //top: 60px!important ; 
+						}
+					}
+				}
+			}
+		}
+	.sx{
+		top: 60px;
+		@include anim_hover_all;
+		@media screen and (max-width: 768px) {
+			top: 0px;
+		}
+	}
+	.sticky_bar{
+		position: fixed;
+		top: 60px;
+		margin-top: 38%;
+		@include anim_hover_all;
+		@media screen and (max-width: 767px) {
+			top: auto;
+			left: 0px;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/* TRADE OVERRIDE */
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+body.trade{
+  	padding-top: 202px;
+  	background: $bianco;
+  	@media screen and (max-width: 767px) {
+		padding-top: 60px;
+	}
+	&.grey{
+		background: $grigio_chiaro;
+	}
+	//--------------------
+
+	.titolo_cent{
+		h2{
+			color: $viola;
+		}
+	}
+	.dropdown_viola{
+
+		.dropdown-menu{
+			color: $viola;
+		}
+		a.dropdown-toggle{
+			background: $viola;
+		}
+	}
+
+	#navbar{
+		@media screen and (max-width: 767px) {
+			background: $viola;
+		}
+		.navbar-blue{
+			background: $viola;
+			ul.nav{
+				li{
+					a{
+						text-transform: initial;
+					}
+					&.dropdown{
+						&.open>a{
+				    		background-color: $viola;
+						}
+						.dropdown-menu {
+						    background-color: $viola;
+						    border: 1px solid $bianco!important;
+						    border-top: none!important;
+						    padding-bottom: 20px;
+						    width: 100%;
+						    @include box_shadow4;
+						    @media screen and (max-width: 767px) {
+								@include box_shadow_no;
+								border: none!important;
+							}
+						    a{
+								&:hover{
+									background: $blu;
+								}
+							}
+						   @media screen and (max-width: 767px) {
+								padding: 0px;
+							}
+						}
+					}
+				}
+			}
+			.social_ico{
+				ul{
+					li{
+						a{
+							.fa-inverse {
+							    color: $viola!important;
+							}
+						}
+					}
+				}
+			}
+		}
+		.main_menu{
+			li{
+
+				&.active>a{
+					&:after{
+						background: $viola;
+					}
+				}
+				a{
+					color: $viola;
+					@media screen and (max-width: 767px) {
+						color: $grigio;
+					}
+					&:hover{
+						&:after{
+							background: $viola;
+						}
+					}
+				}
+			}
+		}
+	}
+	.navbar-header{
+		.navbar-brand{
+		    top: 85px;
+		    @media screen and (max-width: 991px) {
+					top: 65px;
+				}
+			@media screen and (max-width: 767px) {
+				top: 0px;
+			}
+		}
+	}
+
+
+	.gruppo{
+		.sx{
+		    top: 200px;
+		    @media screen and (max-width: 767px) {
+				top: 0px;
+			}
+		}
+		h5,h2{
+			color: $viola;
+		}
+		.tit{
+			color: $viola;
+		}
+		ul.list_carat{
+			li{
+				h5{
+					color: $viola;
+				}
+			}
+		}
+		.sticky_bar{
+			&>.col-lg-6{
+				.prezzo{
+					color: $viola;
+				}
+				h4{
+					color: $viola;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+	//--------------------
+
+	&.scrolled{
+		.navbar-fixed-top{
+			@media screen and (min-width: 768px) {
+				top: -96px;
+			}
+			.navbar-brand{
+				@media screen and (min-width: 768px) {
+					top: 93px!important;
+				}
+			}
+		}
+		.navbar-fixed-top{
+			&:hover{
+				@media screen and (min-width: 768px) {
+					top: 0px;
+					opacity: 1;
+					.navbar-header{
+						.navbar-brand{
+							    top: 60px!important ; 
+						}
+					}
+				}
+			}
+		}
+		.gruppo{
+			.sx{
+				top: 60px;
+				@include anim_hover_all;
+				@media screen and (max-width: 768px) {
+					top: 0px;
+				}
+			}
+		}
+	}
+
+	//--------------------
+
+	.news_events{
+		.titolo{
+			h2{
+				color: $viola;
+			}
+		}
+		.box-news{
+			h5{
+				color: $viola; 
+			}
+			h2{
+				color: $viola; 
+			}
+			p{
+				color: $viola; 
+			}
+		}
+	}
+
+
+
+
+
+
+.product{
+	.menu_product_list{
+		nav{
+			ul{
+			
+				li{
+					a{
+						&:hover{
+							color: $viola;
+						}
+					}
+				}
+			}
+		}
+		.btn_filtro{
+			color: $viola;
+		}
+		.link_filter{
+			color: $viola;
+		}
+	}
+	.product_list{
+		.load_more_bar{
+			.btn_border{
+				border: 2px solid $viola;
+				color: $viola;
+				&:hover{
+					background: $viola;
+					color: $bianco;
+				}
+			}
+		}
+		.item_product_list{
+			.marg_item{	
+				.cont{
+					h2{
+						color: $viola;
+					}
+					.btn_group_list{
+						.btn_list{
+							&:hover{
+								color: $viola;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.prod_list_bar{
+		.prod_list_row {
+			.prod_list-lg-6{
+
+				&.prezzo{
+					color: $viola;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
