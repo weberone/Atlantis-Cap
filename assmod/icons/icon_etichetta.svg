@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="61.102px" height="53.948px" viewBox="0 0 61.102 53.948" enable-background="new 0 0 61.102 53.948" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="61.102" height="80.281"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#58595B" stroke-width="0.963" d="M30.074,51.399
+		c13.439,0,24.331-10.891,24.331-24.332c0-13.432-10.892-24.328-24.331-24.328c-13.436,0-24.329,10.896-24.329,24.328
+		C5.746,40.508,16.639,51.399,30.074,51.399z"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#58595B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M37.25,24.407c0.243,2.451,0.467,4.845,0.467,4.845L23.508,43.537L13.217,33.323l14.362-14.055c0,0,8.678,0.499,9.139,0.998
+		c0.116,0.127,0.229,1.094,0.384,2.516"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#58595B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M34.149,24.878c-0.32,0.508-0.865,0.842-1.482,0.842c-0.986,0-1.786-0.851-1.786-1.901c0-1.05,0.8-1.901,1.786-1.901
+		c0.809,0,1.492,0.573,1.711,1.358"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#58595B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M32.667,21.918c0,0-0.217,1.223,0.519,1.805c1.128,0.893,6.403,0.699,11.136-6.336c1.421-2.113,0.822-3.858-0.537-4.954
+		c-5.556-4.48-10.638,7.104-10.638,7.104"/>
+</g>
+</svg>

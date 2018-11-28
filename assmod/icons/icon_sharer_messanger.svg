@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="61.102px" height="53.781px" viewBox="0 0 61.102 53.781" enable-background="new 0 0 61.102 53.781" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="61.102" height="80.281"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#58595B" stroke-width="0.963" d="M30.122,51.425
+		c13.438,0,24.33-10.891,24.33-24.332c0-13.431-10.892-24.328-24.33-24.328c-13.438,0-24.331,10.897-24.331,24.328
+		C5.792,40.534,16.685,51.425,30.122,51.425z"/>
+	<path clip-path="url(#SVGID_2_)" fill="#58595B" d="M41.956,27.094c0,6.536-5.298,11.835-11.834,11.835S18.288,33.63,18.288,27.094
+		c0-6.536,5.298-11.834,11.834-11.834S41.956,20.559,41.956,27.094"/>
+	<polygon clip-path="url(#SVGID_2_)" fill="#FFFFFF" points="36.99,23.69 31.822,26.986 28.614,24.965 23.254,30.5 28.551,28.049 
+		31.759,30.069 	"/>
+</g>
+</svg>
